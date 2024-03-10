@@ -12,5 +12,5 @@ const hodnota = (cislo1, cislo2, cislo3) => {
   }
 };
 
-document.body.innerHTML = 'Největší hodnota ze zadaných čísel je: ' + hodnota
+document.body.innerHTML = 'Největší hodnota ze zadaných čísel je: ' + hodnota(cislo1, cislo2, cislo3)
 
